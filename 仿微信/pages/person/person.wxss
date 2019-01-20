@@ -1,0 +1,73 @@
+page{
+  background: #ececec;
+}
+.person-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+  background: #ececec;
+}
+.person{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 36rpx;
+  background: #fff;
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+}
+.avatar{
+  width: 96rpx;
+  height: 96rpx;
+  margin-left: 20rpx;
+  align-content: center;
+  align-self: center;
+}
+.person-detail{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 20rpx;
+}
+.name{
+  font-size: 14px;
+  margin-bottom: 5rpx;
+}
+.weChatID{
+  font-size: 12px;
+  margin-top: 5rpx;
+}
+.QRCode{
+  width: 45rpx;
+  height: 45rpx;
+  padding-right: 36rpx; 
+  align-content: center;
+  align-self: center;
+}
+.person-item{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #ececec;
+}
+.icon-wrapper{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+}
+.icon{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx;
+}
+.content{
+  display: flex;
+  flex: 1;
+  font-size: 14px;
+  padding-left: 16rpx; 
+  align-content: center;
+  align-self: center;
+}
+.header{
+  display: flex;
+  flex: 1;
+  height: 36rpx;
+}

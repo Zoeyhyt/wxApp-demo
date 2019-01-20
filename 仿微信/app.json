@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/list/list",
+    "pages/discover/discover",
+    "pages/person/person",
+    "pages/money/money",
+    "pages/signIn/signIn"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar":{
+    "color":"#bfbfbf",
+    "selectedColor":"#0e932e",
+    "list":[
+      {
+        "pagePath":"pages/message/message",
+        "text":"消息",
+        "iconPath":"img/icon/message.png",
+        "selectedIconPath":"img/icon/selected-message.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "通讯录",
+        "iconPath": "img/icon/list.png",
+        "selectedIconPath": "img/icon/selected-list.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "img/icon/discover.png",
+        "selectedIconPath": "img/icon/selected-discover.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我",
+        "iconPath": "img/icon/me.png",
+        "selectedIconPath": "img/icon/selected-me.png"
+      }
+    ]
+  }
+}

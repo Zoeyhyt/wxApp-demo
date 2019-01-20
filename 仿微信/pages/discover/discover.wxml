@@ -1,0 +1,9 @@
+<view class='discover-wrapper'>
+  <view wx:for="{{items}}" wx:key="{{index}}" class='discover-item'>
+    <view wx:if="{{item.header}}" class='header'>{{item.title}}</view>
+    <view wx:else class='icon-wrapper'>
+      <image class='icon' src='/img/icon/{{item.icon}}'></image>
+      <text class='content'>{{item.content}}</text>
+    </view>
+  </view>
+</view>

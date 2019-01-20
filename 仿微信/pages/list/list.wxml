@@ -1,0 +1,25 @@
+<view class='menu'>
+  <view class='search-wrapper'>
+    <view class='search-item'> 
+      <image class='search' src='/img/icon/search.png'></image>
+      <text>搜索</text>
+    </view>
+    <view class='voice-wrapper'>
+      <image class='voice' src='/img/icon/voice.png'></image>
+    </view>
+  </view>
+  <view wx:for="{{menus}}" wx:key="{{index}}" class='menu-item'>
+    <image class='icon' src='/img/icon/{{item.icon}}'></image>
+    <view class='menu-content'>
+      <view class='title'>{{item.title}}</view>
+    </view>
+    <view wx:if="{{item.unread>0}}" class='tip'>{{item.unread}}</view>
+  </view>
+  <view wx:for="{{friends}}" wx:key="{{index}}" class='friends-wrapper'>
+    <view wx:if="{{item.header}}" class='header'>{{item.name}}</view>
+    <view wx:else class='friends-item'>
+      <image class='avatar' src='/img/photo/{{item.avatar}}'></image>
+      <view class='name'>{{item.name}}</view>
+    </view>
+  </view>
+</view>

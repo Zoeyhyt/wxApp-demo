@@ -1,0 +1,98 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+  background: #ececec;
+}
+.search-wrapper{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border: 4rpx solid #ececec;
+  border-radius: 10rpx;
+  margin: 16rpx;
+}
+.search-item{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  margin: 10rpx;
+  color: #999;
+}
+.voice-wrapper{
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  padding-right: 16rpx; 
+}
+.search,
+.voice{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.menu-item{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1rpx solid #ececec;
+}
+.icon{
+  width: 72rpx;
+  height: 72rpx;
+  margin: 16rpx;
+}
+.menu-content{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: center;
+  align-self: center;
+}
+.title{
+  font-size: 14px;
+  padding-left: 16rpx;
+}
+.friends-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  flex: 1;
+  font-size: 12px;
+  margin-left: 16rpx;
+}
+.friends-item{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1rpx solid #ececec;
+}
+.avatar{
+  width: 72rpx;
+  height: 72rpx;
+  margin: 16rpx;
+}
+.name{
+  display: flex;
+  flex: 1;
+  align-content: center;
+  align-self: center;
+  font-size: 14px;
+  padding-left: 16rpx; 
+}
+.tip{
+  display: flex;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  margin-right: 24rpx;
+  width: 36rpx;
+  height: 36rpx;
+  background: #ff0000;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 50%;
+}

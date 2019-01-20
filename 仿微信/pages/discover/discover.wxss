@@ -1,0 +1,37 @@
+page{
+  background: #ececec;
+}
+.discover-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+  background: #ececec;
+}
+.discover-item{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #ececec;
+}
+.icon-wrapper{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+}
+.icon{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx;
+}
+.content{
+  display: flex;
+  flex: 1;
+  font-size: 14px;
+  padding-left: 16rpx; 
+  align-content: center;
+  align-self: center;
+}
+.header{
+  display: flex;
+  flex: 1;
+  height: 36rpx;
+}
